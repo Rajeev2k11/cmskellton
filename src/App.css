@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin-top: 80px;
 }
 
 .App-logo {
@@ -35,4 +36,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+.Appbar{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.Appbar >div>a{
+  color: white;
+  padding: 10px;
+ text-decoration: none;
+}
+.Appbar >button{
+  border-style: none;
 }
